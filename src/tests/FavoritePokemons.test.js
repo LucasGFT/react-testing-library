@@ -1,9 +1,6 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
-import { act } from 'react-dom/test-utils';
+import { screen } from '@testing-library/react';
 import renderWithRouter from './renderWithRouter';
-import App from '../App';
 import { FavoritePokemons } from '../pages';
 
 test('É exibido na tela a mensagem No favorite pokemon found', () => {
